@@ -12,7 +12,8 @@ import com.springbackend.backend.domain.Courses;
 import com.springbackend.backend.services.CoursesServices;
 
 @RestController
-@RequestMapping("/courses")
+@RequestMapping("api/courses")
+// @CrossOrigin(origins = "http://localhost:4200")
 public class CoursesResources {
 
     @Autowired
